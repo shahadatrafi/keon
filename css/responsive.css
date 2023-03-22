@@ -398,7 +398,7 @@
     }
     img#main-logo {
         height: auto;
-        width: 80px;/*Change Width*/
+        width: 100px;/*Change Width*/
     }
     .hero-content.dark.center.loadin {
         margin-top: 25vh !important;
