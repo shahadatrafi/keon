@@ -1,0 +1,222 @@
+/* =Architecture Skin
+-------------------------------------------------------------- */
+
+/* Loader */
+
+.queryloader__overlay__percentage {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Common Typography */
+
+body {
+    font-family: 'Cardo', serif;
+}
+
+.full-width {
+    background: #2E344E;
+}
+
+.separated {
+    border-top: 1px solid rgba(255, 255, 255, .25);
+}
+
+h1,
+h2,
+h4 {
+    font-family: 'Cardo', serif;
+}
+
+h5,
+h6 {
+    font-family: 'Lato', sans-serif;
+}
+
+h3 {
+    font-family: 'Cardo', serif;
+}
+
+h1 {
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+}
+
+@media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 46px;
+    }
+}
+
+/* Buttons */
+
+button.button {
+    color: #fff;
+    background: transparent;
+    padding: 15px 40px;
+    border: 2px solid rgba(255, 255, 255, .5);
+    font-family: 'Lato', sans-serif;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+}
+
+button.button:hover {
+    color: #232323;
+    background: #fff;
+    border: 2px solid #fff;
+}
+
+a.fixed-button,
+a.fixed-button-back {
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+
+.particles {
+    opacity: .5;
+}
+
+/* Disabe Slider Effects (delete this if you need to re-enable the slider) */
+
+#progress-line {
+    display: none;
+}
+
+.bxslider li {
+    opacity: 1 !important;
+}
+
+/* Subscribe Modal */
+
+.md-content {
+    background: url(../../images/architecture/modal-bg.jpg) no-repeat;
+    background-size: cover;
+}
+
+form .text {
+    font-family: 'Lato', sans-serif;
+    border: 1px solid rgba(255, 255, 255, .5);
+}
+
+form .text:focus {
+    border: 1px solid #fff;
+}
+
+form .submit {
+    font-family: 'Lato', sans-serif;
+    color: #f2f2f2;
+    background: #232323;
+    border: 2px solid #232323;
+}
+
+form .submit:hover {
+    background: #000;
+    border: 2px solid #000;
+}
+
+/* Icon Boxes */
+
+.icon-box .icon {
+    color: #9F8F68;
+}
+
+/* Portfolio */
+
+.thumbnails {
+    margin: 10px 10px 0px;
+}
+
+.thumbnail {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.thumbnail .overlay {
+    background: rgba(35, 35, 35, .9);
+}
+
+.project-info h5 {
+    color: #fff;
+}
+
+.project-info .small {
+    color: #f2f2f2;
+}
+
+@media only screen and (min-width: 480px) {
+    .thumbnails {
+        border-left: 5px solid #fff;
+        border-right: 5px solid #fff;
+        margin: 10px 0px 0px;
+    }
+    .thumbnail {
+        width: 50%;
+        border-left: 5px solid #fff;
+        border-right: 5px solid #fff;
+        border-bottom: 10px solid #fff;
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    .thumbnail.large {
+        width: 62.5%;
+    }
+    .thumbnail.small {
+        width: 37.5%;
+    }
+}
+
+/* Lightbox */
+
+.pswp__counter {
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+}
+
+.pswp__share-tooltip {
+    font-family: 'Lato', sans-serif;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+/* Contact */
+
+fieldset label {
+    font-family: 'Lato', sans-serif;
+}
+
+fieldset input,
+fieldset textarea {
+    padding: 14px 7px 14px 15px;
+    margin-bottom: 40px;
+    border: 2px solid #f2f2f2;
+    background: #f2f2f2;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+fieldset input:focus,
+fieldset textarea:focus {
+    background: #fff;
+}
+
+#submit {
+    font-family: 'Lato', sans-serif;
+    padding: 15px 50px;
+    color: #fff;
+    background: #2E344E;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    -webkit-box-shadow: 0px 6px 10px 3px rgba(0, 0, 0, 0.10);
+    -moz-box-shadow: 0px 6px 10px 3px rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 6px 10px 3px rgba(0, 0, 0, 0.10);
+}
+
+#submit:hover {
+    background: #000;
+}
