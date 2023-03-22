@@ -417,6 +417,7 @@
 /* Medium Devices, Desktops */
 
 @media only screen and (min-width: 992px) {
+    
     .extra-padded {
         padding-top: 130px;
         padding-bottom: 130px;
@@ -431,6 +432,7 @@
     .padded-bottom {
         padding-bottom: 50px;
     }
+    
 }
 
 /* Large Devices, Wide Screens */
@@ -473,6 +475,7 @@
     h6 {
         font-size: 9px;
     }
+    
 }
 
 /* Landscape Phones */
@@ -486,6 +489,7 @@
 /* Small Devices, Tablets */
 
 @media only screen and (min-width: 768px) {
+    
     .hero-content .button {
         margin-top: 40px;
     }

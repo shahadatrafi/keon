@@ -1215,8 +1215,9 @@ figcaption {
 }
 
 img#map-maurice {
-    height: 650px;
+    height: 100%;
 }
+/* height change */
 
 .team-boxes h6 {
     padding-bottom: 0px;
@@ -1396,11 +1397,6 @@ p.small {
 .hero-content-home.dark.center {
     padding-top: 20vh;
 }
-
-/* .nav {
-    flex-direction: row-reverse;
-} */
-
 
 .nav li {
     padding-right: 10px;
@@ -1608,9 +1604,9 @@ img#kalodyne-img {
     padding-top: 7vh;
 }
 
-.cocoimage img {
+/* .cocoimage img {
     height: 398px;
-}
+} */
 
 /* @media only screen and (-webkit-min-device-pixel-ratio: 2) {
 		img#main-logo {
@@ -1694,6 +1690,7 @@ li.slick-active button {
     margin-top: 60px;
     margin-bottom: 60px;
 }
-.downloadBtn{
-    
-}
+/* .img-size{
+    height: 114px;
+    width: 99%;
+} */
