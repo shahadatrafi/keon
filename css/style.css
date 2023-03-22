@@ -1397,6 +1397,11 @@ p.small {
     padding-top: 20vh;
 }
 
+/* .nav {
+    flex-direction: row-reverse;
+} */
+
+
 .nav li {
     padding-right: 10px;
 }
