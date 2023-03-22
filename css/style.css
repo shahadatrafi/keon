@@ -1609,7 +1609,7 @@ img#kalodyne-img {
 }
 
 .cocoimage img {
-    height: auto;
+    height: 398px;
 }
 
 /* @media only screen and (-webkit-min-device-pixel-ratio: 2) {
@@ -1693,4 +1693,7 @@ li.slick-active button {
 .our-company {
     margin-top: 60px;
     margin-bottom: 60px;
+}
+.downloadBtn{
+    
 }
