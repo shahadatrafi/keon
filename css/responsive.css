@@ -1,9 +1,15 @@
 /* portrait  */
 
 @media screen and (max-width: 767px) {
-    img#kalodyne-img {
-        /* height: inherit !important; */
+    .test-custom-styles {
+        object-fit:cover;
+        object-position:center;
+        height:400px !important;
+        width: 100%;
     }
+    /* img#kalodyne-img {
+        height: inherit !important;
+    } */
     img#map-maurice {
         height: inherit !important;
     }
@@ -549,3 +555,11 @@
         height: 528px;
     }
 } */
+@media screen and (max-width: 576px) {
+    .test-custom-styles {
+        object-fit:cover;
+        object-position:center;
+        height:300px !important;
+        width: 100%;
+    }
+}
