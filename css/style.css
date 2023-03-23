@@ -1696,3 +1696,7 @@ li.slick-active button {
     height:528px !important;
     width: 100%;
 }
+.card{
+        background: transparent !important;
+        border: none !important;
+    }
