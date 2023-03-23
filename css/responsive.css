@@ -2,7 +2,7 @@
 
 @media screen and (max-width: 767px) {
     img#kalodyne-img {
-        height: inherit !important;
+        /* height: inherit !important; */
     }
     img#map-maurice {
         height: inherit !important;
@@ -40,12 +40,12 @@
 
 /* tablet */
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+/* @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
     img#kalodyne-img {
-        /* height: aut0; */
+        height: aut0;
         height: auto;
     }
-}
+} */
 
 /* landscape iphone XR */
 
@@ -544,8 +544,8 @@
     }
 }
 
-@media screen and (min-width: 1920px) {
+/* @media screen and (min-width: 1920px) {
     img#kalodyne-img {
         height: 528px;
     }
-}
+} */
