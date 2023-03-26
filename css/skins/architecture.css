@@ -23,7 +23,8 @@ body {
 
 h1,
 h2,
-h4 {
+h4,
+.our-title {
     font-family: 'Cardo', serif;
 }
 
